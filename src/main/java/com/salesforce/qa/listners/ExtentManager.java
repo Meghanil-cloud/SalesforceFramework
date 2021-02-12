@@ -11,6 +11,7 @@ import java.io.File;
 
 public class ExtentManager {
 
+
         private static ExtentReports extent;
         public static ExtentTest extLogger;
 

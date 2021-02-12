@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class TestListener implements ITestListener {
 
-    //Extent Report Declarations
+
     //private com.salesforce.qa.listners.ExtentManager ExtentManager;
     private static ExtentReports extent = ExtentManager.createInstance();
     private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();

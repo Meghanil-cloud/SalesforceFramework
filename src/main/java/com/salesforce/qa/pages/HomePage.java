@@ -20,5 +20,4 @@ public class HomePage extends TestBase {
     @FindBy(xpath = "//a[@title='Home Tab']")
     WebElement button_Home;
 
-
 }

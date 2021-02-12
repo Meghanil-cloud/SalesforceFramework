@@ -60,6 +60,7 @@ public class CommonUtilities {
         }
 
         public void deleteScreenShotDirectory() {
+
             String destDir = "/screenshots";
             String SRC_FOLDER = System.getProperty("user.dir") + destDir;
             File directory = new File(SRC_FOLDER);

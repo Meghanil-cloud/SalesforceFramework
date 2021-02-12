@@ -27,6 +27,7 @@ public class TestBase {
 
     @BeforeSuite
     public void TriggerDependencies() throws Exception {
+
         oCommUtil.deleteScreenShotDirectory();
         oCommUtil.loadPropertyFiles(System.getProperty("user.dir") + "/src/main/java/properties/config.properties");
         oCommUtil.loadLog4jProperty(System.getProperty("user.dir") + "/src/main/java/properties/log4j.properties");

@@ -242,6 +242,7 @@ public class browserutilities<Screenshot> {
             float iSecCount = 0;
 
             public WebElement apply(WebDriver arg0) {
+
                 boolean bFlag = !ele.isDisplayed();
                 iSecCount++;
                 if (bFlag) {
